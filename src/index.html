@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <div class="title-app"><h1>Matrix</h1></div>
+        <div class="form">
+            <label>M:</label>
+            <input type="text" class="mInput">
+            <label>N:</label>
+            <input type="text" class="nInput">
+            <button class="create-matrix-button">Create</button>
+        </div>
+        <div class="matrix">
+        </div>
+        <div class="control hidden-element">
+            <button class="fill-button">Fill matrix</button>
+            <input type="text" class="fill-random">
+            <label>Probability</label>
+        </div>
+        <div class="domain hidden-element">
+            <button class="find-domain">Find domains</button>
+        </div>
+    </div>
+    <div class="app hidden-element">
+        <div class="title-app">
+            <h2>Table</h2>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <td>Probability</td>
+                    <td>Domens count</td>
+                    <td>Cell in matrix</td>
+                </tr>
+            </thead>
+            <tbody class="table-body">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="js/matrix-generator.js"></script>
+</body>
+</html>

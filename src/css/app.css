@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Marmelad', sans-serif;
+}
+
+h1, label, h2 {
+    color: #757575;
+}
+
+button {
+    border: none;
+    border-radius: 2px;
+    background-color: #fafafa;
+    color: #757575;
+    height: 36px;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-right: .3rem;
+    margin-left: .3rem;
+    text-transform: uppercase;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgba(158, 158, 158,.2);
+    transition: all .2s;
+}
+
+input {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 2px;
+    border: 1px solid lightskyblue;
+    vertical-align: middle;
+}
+
+table, table tr, table td {
+    border: 1px solid #757575;
+    border-collapse: collapse;
+}
+
+table {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.app {
+    width: 950px;
+    margin: 50px auto;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    background-color: #fafafa;
+}
+
+.title-app {
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form {
+    display: flex;
+    padding: 5px;
+}
+
+.form input {
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: 1;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 2px;
+    border: 1px solid lightskyblue;
+    vertical-align: middle;
+}
+
+.form label {
+    padding: .5rem;
+}
+
+.matrix {
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+.matrix-column {
+    display: flex;
+    
+    align-items: center;
+}
+
+.matrix-column__element {
+    min-width: 1.3rem;
+    min-height: 1.3rem;
+    border: 1px solid #757575;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    display: table-cell;
+}
+
+.control {
+    margin-bottom: 10px;
+}
+
+.fill-random {
+    width: 50px;
+}
+
+.domain {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+
+.hidden-element {
+    display: none;
+}
